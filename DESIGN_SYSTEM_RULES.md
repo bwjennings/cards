@@ -156,7 +156,7 @@ ben.cards/
 │   ├── components/       # Web Components
 │   └── scripts/         # JavaScript utilities
 ├── experiments/          # Experimental features
-├── fundamentals/         # Design principles pages
+├── principles/           # Design principles pages
 └── resources/           # Resource links page
 ```
 

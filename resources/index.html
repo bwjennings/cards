@@ -66,13 +66,13 @@
       const rules = {
         prefetch: [
           {
-            urls: ['../index.html', '../designs/', '../fundamentals/', '../experiments/'],
+            urls: ['../index.html', '../designs/', '../principles/', '../experiments/'],
             eagerness: 'moderate'
           }
         ],
         prerender: [
           {
-            where: { href_matches: '^/(index\\.html|designs/|fundamentals/|experiments/)' },
+            where: { href_matches: '^/(index\\.html|designs/|principles/|experiments/)' },
             eagerness: 'conservative'
           }
         ]

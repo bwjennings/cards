@@ -133,7 +133,7 @@ main {
     width: 100%;
   }
 
-  &.fundamentals-layout {
+  &.principles-layout {
     padding-block: 20dvh;
     gap: 25dvh;
   }
@@ -327,7 +327,7 @@ main {
 }
 
 
-.fundamental-section {
+.principle-section {
   /* Scroll-driven translate on Y axis */
   animation-timeline: view(block);
 
@@ -344,29 +344,29 @@ main {
   gap: var(--spacing-xxl);
   width: 100%;
   grid-template-areas:
-    "fundamental-icon .                 ."
-    "fundamental-icon fundamental-title fundamental-title"
-    "fundamental-icon fundamental-body  fundamental-body"
-    ".                fundamental-body  fundamental-body";
+    "principle-icon .                 ."
+    "principle-icon principle-title principle-title"
+    "principle-icon principle-body  principle-body"
+    ".                principle-body  principle-body";
 
   &:nth-of-type(2) {
     grid-template-areas:
-      ".                  .                 fundamental-icon"
-      "fundamental-title  fundamental-title fundamental-icon"
-      "fundamental-body   fundamental-body  fundamental-icon"
-      "fundamental-body   fundamental-body  .";
+      ".                  .                 principle-icon"
+      "principle-title  principle-title principle-icon"
+      "principle-body   principle-body  principle-icon"
+      "principle-body   principle-body  .";
   }
 
   .heading {
-    grid-area: fundamental-title;
+    grid-area: principle-title;
   }
 
   .body {
-    grid-area: fundamental-body;
+    grid-area: principle-body;
   }
 
   .icon-component {
-    grid-area: fundamental-icon;
+    grid-area: principle-icon;
     width: 100%;
     justify-self: stretch;
   }

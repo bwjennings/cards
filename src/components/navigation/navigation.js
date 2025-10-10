@@ -2,7 +2,7 @@ class SiteNavigation extends HTMLElement {
   // Static template cache
   static template = null;
   static pathMap = new Map([
-    ['/fundamentals', 'item2'],
+    ['/principles', 'item2'],
     ['/designs', 'item3'],
     ['/experiments', 'item4'],
     ['/resources', 'item5']
@@ -159,9 +159,9 @@ class SiteNavigation extends HTMLElement {
               <span class="icon" role="img" aria-hidden="true">waving_hand</span>
               <span class="title body">Home</span>
             </a></li>
-          <li><a class="nav-item item2" href="/fundamentals/">
+          <li><a class="nav-item item2" href="/principles/">
               <span class="icon" role="img" aria-hidden="true">psychology</span>
-              <span class="title body">Fundamentals</span>
+              <span class="title body">Principles</span>
             </a></li>
           <li><a class="nav-item item3" href="/designs/">
               <span class="icon" role="img" aria-hidden="true">web</span>

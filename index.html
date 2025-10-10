@@ -64,13 +64,13 @@
       const rules = {
         prefetch: [
           {
-            urls: ['designs/', 'fundamentals/', 'experiments/', 'resources/'],
+            urls: ['designs/', 'principles/', 'experiments/', 'resources/'],
             eagerness: 'moderate'
           }
         ],
         prerender: [
           {
-            where: { href_matches: '/(designs|fundamentals|experiments|resources)/' },
+            where: { href_matches: '/(designs|principles|experiments|resources)/' },
             eagerness: 'conservative'
           }
         ]

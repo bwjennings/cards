@@ -5,7 +5,7 @@ Project structure overview
   - src/assets: Styles, images, and other static assets used by the site.
   - src/scripts: Small bootstrapping utilities loaded by pages.
 - public: Favicons, manifest and public thumbnails referenced by pages.
-- designs, fundamentals, experiments, resources: Site sections with their own index.html.
+- designs, principles, experiments, resources: Site sections with their own index.html.
 - sandbox: Local demo/test pages not part of production. Safe to delete or ignore in deployments.
 - tools/figma: Figma Code Connect files and configs. Not used at runtime.
 
